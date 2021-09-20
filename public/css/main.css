@@ -13,7 +13,7 @@ body {
 }
 
 #appBuckets {
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
   height: calc(100vh - 150px);
 }
