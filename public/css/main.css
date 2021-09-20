@@ -13,18 +13,18 @@ body {
 }
 
 .panel-heading{
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 
 .panel{
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 
 #appBuckets {
   overflow: hidden;
   width: 100%;
   height: calc(100vh - 150px);
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 
 #forgeViewer {
