@@ -27,7 +27,7 @@ function launchViewer(urn) {
   Autodesk.Viewing.Initializer(options, () => {
     viewer = new Autodesk.Viewing.GuiViewer3D(document.getElementById('forgeViewer'));
     viewer.start();
-    var documentId = 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bXktYnVja2V0L215LWF3ZXNvbWUtZm9yZ2UtZmlsZS5ydnQ';
+    var documentId = 'urn:' + 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bXktYnVja2V0L215LWF3ZXNvbWUtZm9yZ2UtZmlsZS5ydnQ';
     Autodesk.Viewing.Document.load(documentId, onDocumentLoadSuccess, onDocumentLoadFailure);
   });
 }
